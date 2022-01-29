@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    
+</head>
+  <body>
+  <div class="container">
+    <h1>Let's Play Tic Tac Toe!</h1>
+    <div class="show">
+      <h3>Player <span class="show-player playerO">O</span>'s turn</h3>
+  </div>
+        <br>
+        <div class="board">
+          <div id="space0" class="space"></div>
+          <div id="space1" class="space"></div>
+          <div id="space2" class="space"></div>
+          <div id="space3" class="space"></div>
+          <div id="space4" class="space"></div>
+          <div id="space5" class="space"></div>
+          <div id="space6" class="space"></div>
+          <div id="space7" class="space"></div>
+          <div id="space8" class="space"></div>
+        </div>
+        <br>
+        <h2 id="winner"></h2>
+      <button onclick="resetBoard()">RESET</button>
+    </div>
+<script src="game.js"></script>
+</body>
+</html>
